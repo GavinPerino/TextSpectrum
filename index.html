@@ -918,7 +918,7 @@ function openStickers() {
   panel.style.display = 'flex';
 
   // Real stickers from assets/stickers/sticker1.png … sticker10.png
-  const stickerData = Array.from({ length: 20 }, (_, i) => `assets/stickers/sticker${i + 1}.png`);
+  const stickerData = Array.from({ length: 20 }, (_, i) => `sticker${i + 1}.png`);
 
   const grid = document.getElementById('stickers-grid');
   if (!grid) return;
